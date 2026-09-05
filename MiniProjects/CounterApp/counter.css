@@ -1,0 +1,54 @@
+
+body
+{
+    background: hsl(248, 38%, 31%);
+    margin: 0px;
+    
+    font-size: xx-large;
+}
+h3
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+h1
+{
+    font-family: led;
+    color: hsla(6, 100%, 60%, 0.703);
+    background: rgb(25, 25, 25);
+    padding: 20px 0px 20px 50px;
+    border-radius: 8px;
+    width: 100px;
+}
+button
+{
+    padding: 10px;
+    background: hsl(248, 38%, 31%);
+    color: hsl(279, 54%, 64%);
+    border: 1px solid hsl(279, 54%, 64%);
+    border-radius: 5px;
+}
+#mini-logo
+{
+    width: 100px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn
+{
+    padding: 2px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+@font-face
+{
+    src: url(advanced_led_board-7.ttf);
+    font-family: led;
+}

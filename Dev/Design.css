@@ -1,0 +1,43 @@
+body
+{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../KasiProductions_Logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+article
+{
+    text-align: center;
+}
+a
+{
+    color: rgb(180, 177, 177);
+}
+
+.card
+{
+    /*to center using margin you either use display: block; || width: 0px; || both*/
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px auto;
+    background: #330072;
+    border-bottom: 5px solid #d8cefe;
+    color: #dddde0;
+}
+.projects
+{
+    color: whitesmoke;
+}
+
+#profilePic
+{
+    border-radius:50px;
+    width: 150px;
+}

@@ -1,0 +1,160 @@
+body
+{
+    margin: 0;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../KasiProductions_Logo_Transperant.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+#mini-logo
+{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.project-item, .project-itemTwo{
+    width: min(500px, 100%);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+}
+
+.project-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 5/3;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.project-media img,
+.project-media video {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 0.3s ease;
+}
+
+.project-media video {
+    opacity: 0;
+}
+
+.project-media:hover img {
+    opacity: 0;
+}
+
+.project-media:hover video {
+    opacity: 1;
+}
+
+.project h3 {
+    margin: 10px 0 0 0;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+/* TABLET */
+
+@media (max-width: 900px)
+{
+    .project
+    {
+        gap: 20px;
+
+        padding: 20px;
+    }
+
+    .project-item,
+    .project-itemTwo
+    {
+        width: min(450px, 100%);
+    }
+}
+
+/* PHONE */
+
+@media (max-width: 600px)
+{
+    body
+    {
+        background-attachment: scroll;
+    }
+
+
+    #mini-logo
+    {
+        width: 80px;
+    }
+
+
+    .project
+    {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 25px;
+
+        padding: 15px;
+    }
+
+
+    .project-item,
+    .project-itemTwo
+    {
+        width: 100%;
+
+        max-width: 500px;
+    }
+
+
+    .project-media
+    {
+        width: 100%;
+
+        aspect-ratio: 5 / 3;
+
+        border-radius: 12px;
+    }
+
+
+    .project h3
+    {
+        font-size: 1rem;
+
+        margin-top: 8px;
+    }
+}

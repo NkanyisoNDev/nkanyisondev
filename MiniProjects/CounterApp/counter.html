@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="counter.css"/>
+    </head>
+    <body>
+        <a href="../miniProjects.html"><img id="mini-logo" src="../../KasiProduction_Representation_Logo.png" alt="Back"/></a>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 id="home-score">0</h1>
+                <button onclick="HomeScorePlusOne()">+1</button>
+                <button onclick="HomeScorePlusTwo()">+2</button>
+                <button onclick="HomeScorePlusThree()">+3</button>
+            </div>
+            <button id="btn" onclick="Reset()">Reset</button>
+            <div>
+                <h3>AWAY</h3>
+                <h1 id="away-score">0</h1>
+                <button onclick="AwayScorePlusOne()">+1</button>
+                <button onclick="AwayScorePlusTwo()">+2</button>
+                <button onclick="AwayScorePlusThree()">+3</button>
+            </div>
+        </div>
+        <script src="counter.js"></script>
+    </body>
+</html>

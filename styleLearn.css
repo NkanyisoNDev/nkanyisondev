@@ -1,0 +1,38 @@
+body
+{
+    text-align: center;
+    margin: 0;
+    font-family: Corleone;
+}
+button
+{
+    cursor: pointer;
+}
+h1
+{
+    text-shadow: 0px 0px 4px black;
+}
+.ctn
+{
+    border-bottom: 5px dotted rgb(234, 234, 233);
+}
+
+/*id in css are referred to using # and class in css are referred to using .*/
+
+#miniLogo
+{
+    width: 100px;
+}
+#hero
+{
+    color: #E9BA5C;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("girls_shaking_hands.gif");
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+@font-face
+{
+    src: url("corleone.regular.ttf");
+    font-family: Corleone;
+}
