@@ -49,9 +49,12 @@ button
     display: none;
     background: linear-gradient(#959696, #D2973B);
     height: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .option
 {
+    background-color: rgba(248, 244, 244, 0.144);
     margin: 2px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
